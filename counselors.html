@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상담사 찾기 - 운명의 해답</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">운명의 해답</a>
+            <nav class="nav">
+                <a href="counselors.html" class="active">상담하기</a>
+                <a href="colors.html">후기</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="scroll-wrapper">
+                <button class="filter-chip active">전체</button>
+                <button class="filter-chip">🔥 인기</button>
+                <button class="filter-chip">🔮 타로</button>
+                <button class="filter-chip">📜 사주</button>
+                <button class="filter-chip">💞 연애운</button>
+                <button class="filter-chip">💰 금전운</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Counselors Grid -->
+    <section class="section counselors-list">
+        <div class="container">
+            <h2 class="section-title text-left">추천 상담사</h2>
+            <div class="counselor-grid">
+
+                <!-- Counselor 1 -->
+                <a href="profile.html" class="counselor-card">
+                    <div class="card-image">
+                        <img src="images/counselor1.png" alt="루나 선생님">
+                        <div class="status-badge online">상담가능</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>루나 선생님 <span class="hot-badge">HOT</span></h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i> 4.9 (2,103)
+                            </div>
+                        </div>
+                        <p class="card-desc">"당신의 무의식이 보내는 신호를 읽어드립니다"</p>
+                        <div class="tags">
+                            <span>#타로</span>
+                            <span>#연애심리</span>
+                            <span>#힐링</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="price-type">채팅상담</span>
+                            <span class="price">1,500원 / 30초</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Counselor 2 -->
+                <a href="profile.html" class="counselor-card">
+                    <div class="card-image">
+                        <img src="images/counselor2.png" alt="청명 도사">
+                        <div class="status-badge busy">상담중</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>청명 도사</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i> 4.8 (854)
+                            </div>
+                        </div>
+                        <p class="card-desc">"명쾌한 사주풀이로 인생의 길을 찾아드립니다"</p>
+                        <div class="tags">
+                            <span>#사주</span>
+                            <span>#진로취업</span>
+                            <span>#작명</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="price-type">전화상담</span>
+                            <span class="price">2,000원 / 30초</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Counselor 3 (Placeholder using img 1) -->
+                <a href="profile.html" class="counselor-card">
+                    <div class="card-image">
+                        <img src="images/counselor1.png" alt="스텔라">
+                        <div class="status-badge offline">부재중</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>스텔라</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i> 5.0 (120)
+                            </div>
+                        </div>
+                        <p class="card-desc">"별들의 움직임으로 당신의 미래를 읽습니다"</p>
+                        <div class="tags">
+                            <span>#점성술</span>
+                            <span>#서양사주</span>
+                            <span>#궁합</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="price-type">채팅상담</span>
+                            <span class="price">1,800원 / 30초</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Counselor 4 (Placeholder using img 2) -->
+                <a href="profile.html" class="counselor-card">
+                    <div class="card-image">
+                        <img src="images/counselor2.png" alt="천운 선생">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3>천운 선생</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i> 4.7 (3,400)
+                            </div>
+                        </div>
+                        <p class="card-desc">"전통 명리학 기반의 정확도 높은 풀이"</p>
+                        <div class="tags">
+                            <span>#사주</span>
+                            <span>#재물운</span>
+                            <span>#사업운</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="price-type">전화상담</span>
+                            <span class="price">2,200원 / 30초</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
