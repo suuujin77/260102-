@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상담사 프로필 - 운명의 해답</title>
+    <link rel="stylesheet" href="style_pt.css">
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index_pt.html" class="logo">운명의 해답</a>
+            <nav class="nav">
+                <a href="counselors_pt.html">돌아가기</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+
+            <div class="profile-header">
+                <div style="font-size: 5rem;">👩‍🔮</div>
+                <div>
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 10px;">루나 선생님</h2>
+                    <p>타로 / 연애심리 전문</p>
+                    <p style="margin-top: 10px;">"불안한 미래, 카드의 목소리로 길을 비춰드립니다."</p>
+                </div>
+            </div>
+
+            <!-- Booking Form (MVP) -->
+            <div class="card" style="max-width: 600px; margin: 0 auto;">
+                <h3 style="margin-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">
+                    상담 예약</h3>
+
+                <form>
+                    <div class="form-group">
+                        <label>상담 유형</label>
+                        <select class="form-control">
+                            <option>채팅 상담 (1,500원/30초)</option>
+                            <option>전화 상담 (2,000원/30초)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>예약 날짜</label>
+                        <input type="date" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label>예약 시간</label>
+                        <select class="form-control">
+                            <option>10:00</option>
+                            <option>11:00</option>
+                            <option>14:00</option>
+                            <option>15:00</option>
+                        </select>
+                    </div>
+
+                    <!-- Payment MVP Placeholder -->
+                    <div class="form-group">
+                        <label>결제 수단</label>
+                        <select class="form-control">
+                            <option>신용카드</option>
+                            <option>간편결제 (Toss/Kakao)</option>
+                        </select>
+                    </div>
+
+                    <button type="button" class="btn btn-primary btn-block" style="margin-top: 20px;">예약 및 결제하기</button>
+                </form>
+            </div>
+
+            <!-- Reviews -->
+            <div style="margin-top: 60px;">
+                <h3 class="section-title">상담 후기</h3>
+                <div class="card" style="margin-bottom: 15px;">
+                    <p><strong>soojin**님</strong> ⭐⭐⭐⭐⭐</p>
+                    <p style="color: var(--text-sub);">정말 소름돋게 잘 맞추시네요. 감사합니다!</p>
+                </div>
+                <div class="card">
+                    <p><strong>user12**님</strong> ⭐⭐⭐⭐⭐</p>
+                    <p style="color: var(--text-sub);">목소리가 너무 좋으시고 힐링되었습니다.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
